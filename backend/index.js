@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
     res.send("Weather app backend - Home page")
 })
 
-app.set("port", process.env.PORT || 3001)
+app.set("port", process.env.PORT || 3002)
 
 app.listen(app.get("port"), () => {
     console.log(
