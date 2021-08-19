@@ -12,5 +12,5 @@ To get this app up and running two repos will be needed. This repo is the backen
 
 1. Copy the link from the green "Code" button above the readme on Github.
 2. In the same folder you're using to hold the frontend, use the link you've copied to run the command `git clone {paste url here}`
-3. `cd` into the folder, and launch the backend with `npx nodemon index.js`
+3. `cd` into the folder,`cd` one more time into the "backend" folder, and finally launch the backend with the command `npx nodemon index.js`
 4. Head over to the frontend here: https://github.com/nazeerhere/weather-app-frontend.git
